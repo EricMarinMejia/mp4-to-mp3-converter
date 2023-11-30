@@ -1,8 +1,8 @@
 <h1>Description du projet</h1>
-<p>Script python pour convertir des fichiers mp4 en mp3</p>
-<br />
+<p>Script python pour convertir des fichiers mp4 en mp3 à l'aide du module moviepy</p>
+
 <hr />
-<br />
+
 <h1>Comment lancer le programme</h1>
 <ol>
     <li>Installer <a href="https://www.python.org/downloads/">Python</a></li>
