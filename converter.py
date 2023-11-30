@@ -38,10 +38,7 @@ while (answer == "O" or answer == "o"):
 
     try :
         if (videoName != ""):
-            # Insert Local Video File Path 
             clip = mp.VideoFileClip(r"./mp4s/" + videoName)
-            
-            # Insert Local Audio File Path
             clip.audio.write_audiofile(r"./mp3s/" + audioName + ".mp3")
     except OSError as e:
         print("File not found! Don't forget to respect capital letters.")
