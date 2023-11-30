@@ -14,6 +14,16 @@ print("Before continuing, place your video file inside the mp4s folder.")
 print("The audio file will be generated inside the mp3s folder.")
 print("---------------------------------")
 
+
+if (not os.path.isdir("mp4s")):
+    dirname = "mp4s"
+    os.mkdir(dirname)
+
+if (not os.path.isdir("mp3s")):
+    dirname = "mp3s"
+    os.makedirs(dirname)
+
+
 listFiles = input("Do you want to list the mp4 files? (O/N): ")
 if (listFiles == "O" or listFiles == "o"):
     if (os.name == "posix"):
